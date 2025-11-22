@@ -1,11 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tech Solutions Pro - Soluciones tecnológicas integrales para tu negocio." />
+    <title>Tech Solutions Pro | Soluciones tecnológicas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/estilos.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">
+                    <i class="bi bi-cpu"></i>
+                    <span>Tech Solutions Pro</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navTech">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navTech">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="inicio" class="hero">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <h1>Impulsa tu negocio con soluciones tecnológicas confiables</h1>
+                    <p class="lead">
+                        En Tech Solutions Pro diseñamos, desarrollamos e integramos tecnología
+                        para que tu empresa crezca sin fricciones.
+                    </p>
+                    <a class="btn btn-cta btn-lg mt-2" href="#contacto">Solicitar asesoría</a>
+                    <a class="btn btn-success btn-lg mt-2"
+                        href="https://wa.me/51951283845?text=Hola%20Tech%20Solutions%20Pro,%20quiero%20más%20información"
+                        target="_blank">
+                        <i class="bi bi-whatsapp"></i> Escríbenos por WhatsApp
+                    </a>
+
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=1200&q=60&auto=format&fit=crop"
+                                    class="d-block w-100" alt="Equipo trabajando en soluciones de software" />
+                                <div class="carousel-caption">
+                                    <h5>Desarrollo web a medida</h5>
+                                    <p>Escalable, seguro y listo para crecer con tu negocio.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=1200&q=60&auto=format&fit=crop"
+                                    class="d-block w-100" alt="Panel de analítica con métricas clave" />
+                                <div class="carousel-caption">
+                                    <h5>Automatización y datos</h5>
+                                    <p>Conecta sistemas y toma decisiones con información útil.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1200&q=60&auto=format&fit=crop"
+                                    class="d-block w-100" alt="Profesional presentando arquitectura de soluciones" />
+                                <div class="carousel-caption">
+                                    <h5>Consultoría técnica</h5>
+                                    <p>Arquitecturas sólidas y acompañamiento experto.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Servicios principales</h2>
+                <p class="text-secondary">Soluciones integrales que se adaptan a tus objetivos.</p>
+            </div>
+            <div class="row g-4">
+                <article class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <i class="bi bi-code-slash service-icon"></i>
+                            <h3 class="h5">Desarrollo Web</h3>
+                            <p>Aplicaciones modernas, rápidas y accesibles.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <i class="bi bi-graph-up-arrow service-icon"></i>
+                            <h3 class="h5">Automatización y Datos</h3>
+                            <p>Flujos automatizados y dashboards interactivos.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <i class="bi bi-tools service-icon"></i>
+                            <h3 class="h5">Consultoría Técnica</h3>
+                            <p>Evaluación de arquitecturas y planes de migración.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Testimonios</h2>
+                <p class="text-secondary">Clientes que confían en nuestro trabajo.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <p>“Transformaron nuestra presencia digital y las ventas subieron sin complicaciones.”</p>
+                            <strong>Alexandra R.</strong> - E-commerce Manager
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <p>“La automatización nos ahorró horas semanales y mejoró la calidad de nuestros datos.”</p>
+                            <strong>Frank J.</strong> - COO
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Contáctanos</h2>
+                <p class="text-secondary">Cuéntanos tu reto y te proponemos una solución.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <form class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-cta">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-3 bg-dark text-light">
+        <p class="mb-0">© <span id="year"></span> Tech Solutions Pro. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
+
 </html>
